@@ -1,1 +1,1 @@
-g++ -std=c++17 server.cpp depends/mongoose.c -o server
+g++ -std=c++17 src/server.cpp src/depends/mongoose.c -o server
