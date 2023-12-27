@@ -1,24 +1,21 @@
-## INFO
-
 HTTP multi server - allows you to execute shell commands, write or read files, list files...
 
 by default runs on localhost:8742
 
 See commands section.
 
-## Build
+# Build
 
 Execute ```./build.sh```
 
-## Commands
+# Commands
 
-# GET
+## GET
 
 ```/ls/<path>```
 List Files in path
 
-```/ls//data/test```
-would list all files & folders in "/data/test"
+```/ls//data/test``` would list all files & folders in "/data/test"
 
 
 ```/readfile/<path>```
@@ -30,11 +27,9 @@ read file data (any file type), returned as appropriate mime type in response.
 
 execute shell command
 
-```/shell/ls /data```
+```/shell/ls /data``` would execute ```ls /data```
 
-would execute ```ls /data```
-
-# POST
+## POST
 
 ```/writefile/<path>```
 
