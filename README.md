@@ -30,7 +30,6 @@ would list all files & folders in "/data/test"
 
 read file data (any file type), returned as appropriate mime type in response.
 
-
 ```/shell/<command>```
 
 execute shell command
@@ -49,3 +48,7 @@ write request body to specified file
 
 Executes request body as bash (.sh) script.
 Globbing and everything else works, unlike ```/shell```
+
+```/shell```
+
+Executes request body as (one line) shell command.
