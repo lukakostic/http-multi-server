@@ -22,6 +22,9 @@ eg: ```/ls//data/test```
 
 would list all files & folders in "/data/test"
 
+```/ls-d/<path>```  list only folders
+
+```/ls-f/<path>``` list only files
 
 ```/readfile/<path>```
 
@@ -41,3 +44,8 @@ would execute ```ls /data```
 ```/writefile/<path>```
 
 write request body to specified file
+
+```/bash```
+
+Executes request body as bash (.sh) script.
+Globbing and everything else works, unlike ```/shell```
