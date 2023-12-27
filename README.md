@@ -8,14 +8,19 @@ See commands section.
 
 Execute ```./build.sh```
 
+Then you can run ```./server```
+
 # Commands
 
 ## GET
 
 ```/ls/<path>```
+
 List Files in path
 
-```/ls//data/test``` would list all files & folders in "/data/test"
+eg: ```/ls//data/test``` 
+
+would list all files & folders in "/data/test"
 
 
 ```/readfile/<path>```
@@ -27,7 +32,9 @@ read file data (any file type), returned as appropriate mime type in response.
 
 execute shell command
 
-```/shell/ls /data``` would execute ```ls /data```
+eg: ```/shell/ls /data``` 
+
+would execute ```ls /data```
 
 ## POST
 
