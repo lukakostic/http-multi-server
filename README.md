@@ -2,6 +2,8 @@
 
 HTTP multi server - allows you to execute shell commands, write or read files, list files...
 
+by default runs on localhost:8742
+
 See commands section.
 
 ## Build
