@@ -1,6 +1,9 @@
-HTTP multi server - allows you to execute shell commands, write or read files, list files...  
+HTTP multi server - allows you to execute shell commands, write or read files, list files, watch filesystem changes over websocket...
 
-by default runs on localhost:8742  
+Multithreaded, uses Mongoose.ws c++ web server
+
+by default runs on http://localhost:8742  
+and websocket version on ws://localhost:8743
 
 See commands section.  
 
