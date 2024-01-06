@@ -1,1 +1,1 @@
-g++ -std=c++17 src/server.cpp src/depends/mongoose.c -o server
+g++ -Wall -Wpedantic -std=c++17 src/server.cpp src/depends/mongoose.c -o server

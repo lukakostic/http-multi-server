@@ -1,8 +1,8 @@
-HTTP multi server - allows you to execute shell commands, write or read files, list files...
+HTTP multi server - allows you to execute shell commands, write or read files, list files...  
 
-by default runs on localhost:8742
+by default runs on localhost:8742  
 
-See commands section.
+See commands section.  
 
 # Build
 
@@ -22,9 +22,8 @@ eg: ```/ls//data/test```
 
 would list all files & folders in "/data/test"
 
-```/ls-d/<path>```  list only folders
-
-```/ls-f/<path>``` list only files
+```/ls-d/<path>```  list only folders  
+```/ls-f/<path>``` list only files  
 
 ```/readfile/<path>```
 
@@ -46,7 +45,7 @@ write request body to specified file
 
 ```/bash```
 
-Executes request body as bash (.sh) script.
+Executes request body as bash (.sh) script.  
 Globbing and everything else works, unlike ```/shell```
 
 ```/shell```
